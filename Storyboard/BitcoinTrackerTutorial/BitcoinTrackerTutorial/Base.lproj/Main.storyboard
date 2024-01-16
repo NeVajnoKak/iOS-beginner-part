@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BitcoinTrackerTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bitcoin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eqD-bZ-MRC">
+                                <rect key="frame" x="75" y="119" width="72" height="27"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bitcoin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBc-ck-6ek">
+                                <rect key="frame" x="75" y="184" width="72" height="27"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bitcoin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQR-3u-d6c">
+                                <rect key="frame" x="75" y="314" width="72" height="27"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lasted Updated" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nY-5i-GhO">
+                                <rect key="frame" x="135.66666666666666" y="428" width="121.99999999999997" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dhj-RU-O96">
+                                <rect key="frame" x="16" y="115" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Dhj-RU-O96" secondAttribute="height" multiplier="1:1" id="L4c-ts-iDJ"/>
+                                    <constraint firstAttribute="height" constant="35" id="hT6-2o-YHO"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="books.vertical.fill" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYs-H0-YeJ">
+                                <rect key="frame" x="16" y="180" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="P0s-RS-Dxl"/>
+                                    <constraint firstAttribute="width" secondItem="VYs-H0-YeJ" secondAttribute="height" multiplier="1:1" id="f5F-EG-VL9"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="books.vertical.fill" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7t2-kr-ZrH">
+                                <rect key="frame" x="16" y="245" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Fgg-G7-WKC"/>
+                                    <constraint firstAttribute="width" secondItem="7t2-kr-ZrH" secondAttribute="height" multiplier="1:1" id="KZc-dQ-kuy"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="books.vertical.fill" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gu-MR-6lD">
+                                <rect key="frame" x="16" y="310" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Wq8-gH-Kmd"/>
+                                    <constraint firstAttribute="width" secondItem="7gu-MR-6lD" secondAttribute="height" multiplier="1:1" id="n4P-ff-863"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="books.vertical.fill" catalog="system"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bitcoin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Prf-OR-BF7">
+                                <rect key="frame" x="75" y="249" width="72" height="27"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2nY-5i-GhO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="2qa-Qu-PNl"/>
+                            <constraint firstItem="2nY-5i-GhO" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="4gI-dw-EIj"/>
+                            <constraint firstItem="hBc-ck-6ek" firstAttribute="centerY" secondItem="VYs-H0-YeJ" secondAttribute="centerY" id="RSN-CL-hTU"/>
+                            <constraint firstItem="7gu-MR-6lD" firstAttribute="top" secondItem="7t2-kr-ZrH" secondAttribute="bottom" constant="30" id="U87-cG-PJg"/>
+                            <constraint firstItem="7t2-kr-ZrH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="aP3-d1-qVa"/>
+                            <constraint firstItem="7gu-MR-6lD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="b05-n2-YH5"/>
+                            <constraint firstItem="Prf-OR-BF7" firstAttribute="centerY" secondItem="7t2-kr-ZrH" secondAttribute="centerY" id="bbz-YB-1Tf"/>
+                            <constraint firstItem="Dhj-RU-O96" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="d9t-Pl-qmY"/>
+                            <constraint firstItem="RQR-3u-d6c" firstAttribute="centerY" secondItem="7gu-MR-6lD" secondAttribute="centerY" id="dA9-p8-vsD"/>
+                            <constraint firstItem="eqD-bZ-MRC" firstAttribute="centerY" secondItem="Dhj-RU-O96" secondAttribute="centerY" id="eeU-ZT-b3e"/>
+                            <constraint firstItem="eqD-bZ-MRC" firstAttribute="leading" secondItem="Dhj-RU-O96" secondAttribute="trailing" constant="24" id="fwC-SO-85z"/>
+                            <constraint firstItem="VYs-H0-YeJ" firstAttribute="top" secondItem="Dhj-RU-O96" secondAttribute="bottom" constant="30" id="hkR-pq-V8a"/>
+                            <constraint firstItem="Dhj-RU-O96" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="n3A-G3-6hZ"/>
+                            <constraint firstItem="Prf-OR-BF7" firstAttribute="leading" secondItem="7t2-kr-ZrH" secondAttribute="trailing" constant="24" id="nRC-9c-vUi"/>
+                            <constraint firstItem="VYs-H0-YeJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="o6U-xG-Mgk"/>
+                            <constraint firstItem="hBc-ck-6ek" firstAttribute="leading" secondItem="VYs-H0-YeJ" secondAttribute="trailing" constant="24" id="qI6-0D-Rzi"/>
+                            <constraint firstItem="RQR-3u-d6c" firstAttribute="leading" secondItem="7gu-MR-6lD" secondAttribute="trailing" constant="24" id="quQ-pI-v44"/>
+                            <constraint firstItem="7t2-kr-ZrH" firstAttribute="top" secondItem="VYs-H0-YeJ" secondAttribute="bottom" constant="30" id="zlg-pj-Kp8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="audPrice" destination="RQR-3u-d6c" id="KlI-Oo-4Yn"/>
+                        <outlet property="btcPrice" destination="eqD-bZ-MRC" id="tUv-f6-jAM"/>
+                        <outlet property="ethPrice" destination="hBc-ck-6ek" id="8jD-mu-WQI"/>
+                        <outlet property="lastUpdatedPrice" destination="2nY-5i-GhO" id="REN-HO-dm5"/>
+                        <outlet property="usdPrice" destination="Prf-OR-BF7" id="w4K-uz-7zj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="102" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="books.vertical.fill" catalog="system" width="128" height="110"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
