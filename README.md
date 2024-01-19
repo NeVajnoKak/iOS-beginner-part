@@ -4,38 +4,28 @@
 # I am Software Developer
 
 ### Laptop
-![MacBook](https://img.shields.io/badge/Macbook-67829F?style=for-the-badge&logo=Apple)
-![Asus](https://img.shields.io/badge/Asus-67829F?style=for-the-badge&logo=Asus)
+![MacBook](https://img.shields.io/badge/Macbook-01060D?style=for-the-badge&logo=Apple&logoColor=#000000)
+![Asus](https://img.shields.io/badge/Asus-01060D?style=for-the-badge&logo=Asus&logoColor=D32F2F)
 
 ### Languages and Tools
 
-![C++](https://img.shields.io/badge/C++-9F8567?style=for-the-badge&logo=C%2b%2b)
-![JavaScript](https://img.shields.io/badge/JavaScript-9F8567?style=for-the-badge&logo=JavaScript)
-![Python](https://img.shields.io/badge/Python-9F8567?style=for-the-badge&logo=Python)
-![Swift](https://img.shields.io/badge/Swift-9F8567?style=for-the-badge&logo=Swift)
-![Java](https://img.shields.io/badge/Java-9F8567?style=for-the-badge&logo=openjdk)
-
-![HTML5](https://img.shields.io/badge/HTML5-9F8567?style=for-the-badge&logo=HTML5)
-![CSS3](https://img.shields.io/badge/CSS3-9F8567?style=for-the-badge&logo=CSS3)
+![C++](https://img.shields.io/badge/C++-01060D?style=for-the-badge&logo=C%2b%2b&logoColor=6495ED)
+![JavaScript](https://img.shields.io/badge/JavaScript-01060D?style=for-the-badge&logo=JavaScript&logoColor=DFFF00)
+![Python](https://img.shields.io/badge/Python-01060D?style=for-the-badge&logo=Python&logoColor=9FE2BF)
+![Swift](https://img.shields.io/badge/Swift-01060D?style=for-the-badge&logo=Swift&logoColor=FFBF00)
+![Java](https://img.shields.io/badge/Java-01060D?style=for-the-badge&logo=openjdk&logoColor=DE3163)
 
 ### Frameworks
 
-![Django](https://img.shields.io/badge/Django-679F82?style=for-the-badge&logo=Django&logoColor=00FF99)
-![React](https://img.shields.io/badge/React-679F82?style=for-the-badge&logo=react&logoColor=#00FFFF)
+![Django](https://img.shields.io/badge/Django-01060D?style=for-the-badge&logo=Django&logoColor=00FF99)
+![React](https://img.shields.io/badge/React-01060D?style=for-the-badge&logo=react&logoColor=#00FFFF)
 
 ### DataBase
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSql-CF8D43?style=for-the-badge&logo=PostgreSql)
-![MSSQL](https://img.shields.io/badge/MSSQL-CF8D43?style=for-the-badge&logo=Microsoft&logoColor=CFD8DC)
-![MySQL](https://img.shields.io/badge/MySQL-CF8D43?style=for-the-badge&logo=MYSQL)
-
-### Design
-
-![Figma](https://img.shields.io/badge/Figma-67689F?style=for-the-badge&logo=Figma)
-
-
+![PostgreSQL](https://img.shields.io/badge/PostgreSql-01060D?style=for-the-badge&logo=PostgreSql&logoColor=CFD8DC)
+![MSSQL](https://img.shields.io/badge/MSSQL-01060D?style=for-the-badge&logo=Microsoft&logoColor=CFD8DC)
 ## Follow me
 
-[![Instagram](https://img.shields.io/badge/Instagram-9F678B?style=for-the-badge&logo=instagram&logoColor=FF66FF)](https://www.instagram.com/massainovvv/)
-[![VKontakte](https://img.shields.io/badge/VKontakte-9F678B?style=for-the-badge&logo=VK&logoColor=0D47A1)](https://vk.com/mierko)
-[![Telegram](https://img.shields.io/badge/Telegram-9F678B?style=for-the-badge&logo=Telegram&logoColor=80DEEA)](https://t.me/erkeeeeeeeeeeeeeeeeeeee)
+[![Instagram](https://img.shields.io/badge/Instagram-01060D?style=for-the-badge&logo=instagram&logoColor=FF66FF)](https://www.instagram.com/massainovvv/)
+[![VKontakte](https://img.shields.io/badge/VKontakte-01060D?style=for-the-badge&logo=VK&logoColor=0D47A1)](https://vk.com/mierko)
+[![Telegram](https://img.shields.io/badge/Telegram-01060D?style=for-the-badge&logo=Telegram&logoColor=80DEEA)](https://t.me/erkeeeeeeeeeeeeeeeeeeee)
